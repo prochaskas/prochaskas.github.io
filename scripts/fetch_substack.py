@@ -10,10 +10,13 @@ Three kinds of source:
   * A Substack, only some posts:      {"url": "...", "only": [{"url": ...}, ...]}
     Posts are matched by URL slug or by title. Any listed post not found in the feed
     is fetched on its own.
+  * A Substack, all posts, plus some that must always appear:
+                                      {"url": "...", "add": [{"url": ...}, ...]}
   * Plain links on other sites:       {"only": [...]} with no "url"
     Title, summary and image come from each page's preview (Open Graph) tags.
 
-Values typed into an "only" entry (title, date, subtitle, image) are used whenever the
+In an entry, "cover_image" always replaces the post's cover, and "image_credit" is shown
+under it. Values typed into an entry (title, date, subtitle, image) are used whenever the
 fetched page doesn't provide them, so a card still appears if a site blocks the
 request. Posts already in posts.json are kept when a fetch fails, so a bad day never
 empties the page. Standard library only.
@@ -192,7 +195,9 @@ def finish(post, entry, sid):
     post["url"] = clean_url(post.get("url") or entry.get("url"))
     if (post.get("image") or "").startswith("http://"):
         post["image"] = "https://" + post["image"][7:]
-    for k in ("outlet", "role"):
+    if entry.get("cover_image"):  # chosen by hand: always wins over the fetched cover
+        post["image"] = entry["cover_image"]
+    for k in ("outlet", "role", "image_credit"):
         if entry.get(k):
             post[k] = entry[k]
     post.pop("_bylines", None)
@@ -210,7 +215,7 @@ def main():
     for src in cfg["sources"]:
         sid = src["id"]
         base = (src.get("url") or "").rstrip("/") or None
-        sources.append({"id": sid, "name": src["name"], "url": base})
+        sources.append({k: v for k, v in {"id": sid, "name": src["name"], "url": base, "tag": src.get("tag")}.items() if v})
         exclude = {clean_url(u) for u in src.get("exclude") or []}
         only = src.get("only")
 
@@ -224,6 +229,21 @@ def main():
                 except Exception as e:
                     warn(f"{sid}: {method.__name__} failed ({e})")
 
+        by_slug = {slug_of(p["url"]): p for p in feed}
+        by_title = {norm_title(p["title"]): p for p in feed}
+        saved = [p for p in old.get("posts", []) if p.get("source") == sid]
+        saved_by_title = {norm_title(p.get("title")): p for p in saved}
+
+        def listed(entry):
+            """A post named in writing.json: find it in the feed, reuse a saved copy, or fetch it."""
+            entry = {**entry, "url": clean_url(entry["url"])}
+            hit = by_slug.get(slug_of(entry["url"])) or by_title.get(norm_title(entry.get("title")))
+            if not hit:
+                prev = old_by_url.get(entry["url"]) or saved_by_title.get(norm_title(entry.get("title")))
+                # Reuse a complete saved copy instead of re-fetching the page every day
+                hit = prev if prev and prev.get("image") else fetch_one(entry, base)
+            return finish(hit, entry, sid)
+
         kept = {}
         if only is None:
             # Every post in the feed (optionally filtered by byline), plus older saved ones
@@ -235,19 +255,13 @@ def main():
                 names = [b.lower() for b in p.get("_bylines", [])]
                 if not wanted or any(w in n for w in wanted for n in names):
                     kept[p["url"]] = finish(p, {}, sid)
+            # "add": posts that must always appear (and may carry a hand-picked cover)
+            for entry in src.get("add") or []:
+                post = listed(entry)
+                kept[post["url"]] = post
         else:
-            by_slug = {slug_of(p["url"]): p for p in feed}
-            by_title = {norm_title(p["title"]): p for p in feed}
-            saved = [p for p in old.get("posts", []) if p.get("source") == sid]
-            saved_by_title = {norm_title(p.get("title")): p for p in saved}
             for entry in only:
-                entry = {**entry, "url": clean_url(entry["url"])}
-                hit = by_slug.get(slug_of(entry["url"])) or by_title.get(norm_title(entry.get("title")))
-                if not hit:
-                    prev = old_by_url.get(entry["url"]) or saved_by_title.get(norm_title(entry.get("title")))
-                    # Reuse a complete saved copy instead of re-fetching the page every day
-                    hit = prev if prev and prev.get("image") else fetch_one(entry, base)
-                post = finish(hit, entry, sid)
+                post = listed(entry)
                 kept[post["url"]] = post
             print(f"{sid}: {len(kept)} listed posts")
 

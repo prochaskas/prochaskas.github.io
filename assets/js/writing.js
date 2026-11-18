@@ -3,19 +3,24 @@ import { fetchJSON, formatDate, el, generativeCover, richName } from "./site.js"
 const grid = document.getElementById("posts");
 const filterBar = document.getElementById("filters");
 
-function card(post, sourceName) {
+function card(post, sourceName, tag) {
   const img = el("img", {
     class: "cover", loading: "lazy", alt: "",
     src: post.image || generativeCover(post.title),
   });
-  img.addEventListener("error", () => { img.src = generativeCover(post.title); }, { once: true });
+  img.addEventListener("error", () => {
+    img.src = generativeCover(post.title);
+    img.parentElement?.querySelector(".credit")?.remove(); // the credit belonged to the image that failed
+  }, { once: true });
   return el("a", { class: "post", href: post.url, target: "_blank", rel: "noopener" },
-    img,
+    el("div", { class: "cover-wrap" }, img,
+      post.image_credit ? el("span", { class: "credit" }, post.image_credit) : null),
     el("div", { class: "body" },
       el("span", { class: "pub" }, post.outlet ? post.outlet : richName(sourceName)),
       el("h3", {}, post.title),
       post.subtitle ? el("p", { class: "sub" }, post.subtitle) : null,
       el("span", { class: "meta" }, formatDate(post.date),
+        tag ? el("span", { class: "role tag" }, tag) : null,
         post.role ? el("span", { class: "role" }, post.role) : null,
         post.paid ? el("span", { class: "role" }, "Paid") : null)
     )
@@ -28,6 +33,7 @@ async function main() {
   catch { data = { posts: [], sources: [] }; }
   const { posts = [], sources = [] } = data;
   const names = Object.fromEntries(sources.map(s => [s.id, s.name]));
+  const tags = Object.fromEntries(sources.map(s => [s.id, s.tag]));
 
   if (!posts.length) {
     grid.replaceWith(el("p", { class: "empty" },
@@ -52,7 +58,7 @@ async function main() {
       }, richName(o.name), el("span", { class: "count" }, String(n)));
     }));
     const shown = active === "all" ? posts : posts.filter(p => p.source === active);
-    grid.replaceChildren(...shown.map(p => card(p, names[p.source] || "")));
+    grid.replaceChildren(...shown.map(p => card(p, names[p.source] || "", tags[p.source])));
   }
   render();
 }

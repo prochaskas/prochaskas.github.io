@@ -1,10 +1,21 @@
 {
-  "_help": "Where Public Writing comes from. A source with a 'url' and no 'only' list shows every post from that Substack. A source with an 'only' list shows just those posts (match by URL or title); typed-in title/date are used if the site can't be reached. A source with no 'url' is a list of articles on other sites. Optional per post: 'role' (e.g. Contributor) and 'outlet' (label shown on the card). 'exclude' hides posts by URL. Write ~~text~~ in a name to strike it through.",
+  "_help": "Where Public Writing comes from. A source with a 'url' and no 'only' list shows every post from that Substack. A source with an 'only' list shows just those posts (match by URL or title); typed-in title/date are used if the site can't be reached. A source with no 'url' is a list of articles on other sites. Optional per post: 'role' (e.g. Contributor) and 'outlet' (label shown on the card). 'exclude' hides posts by URL. Write ~~text~~ in a name to strike it through. A source's 'add' list always includes those posts. 'cover_image' replaces a post's cover; 'image_credit' is shown under it. A source's 'tag' appears on each of its cards.",
   "sources": [
     {
       "id": "personal",
       "name": "Imagining ~~Im~~Possible Futures",
       "url": "https://stephenprochaska.substack.com",
+      "tag": "Personal",
+      "add": [
+        {
+          "url": "https://stephenprochaska.substack.com/p/industrial-illusions",
+          "title": "Industrial Illusions",
+          "subtitle": "Reflecting on research identity amidst external pressure",
+          "date": "2026-10-17",
+          "cover_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/07/Blind_men_and_elephant4.jpg/500px-Blind_men_and_elephant4.jpg",
+          "image_credit": "Image: Wikipedia"
+        }
+      ],
       "exclude": []
     },
     {
