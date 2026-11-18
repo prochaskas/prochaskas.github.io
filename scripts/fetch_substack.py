@@ -24,6 +24,7 @@ import re
 import sys
 import time
 import urllib.parse
+import urllib.error
 import urllib.request
 import xml.etree.ElementTree as ET
 from datetime import datetime, timezone
@@ -34,15 +35,25 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parent.parent
 CONFIG = ROOT / "data" / "writing.json"
 OUT = ROOT / "data" / "posts.json"
-UA = "Mozilla/5.0 (compatible; personal-site-post-sync/1.0)"
+UA = "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0 Safari/537.36"
 MAX_POSTS = 1000
 NS = {"dc": "http://purl.org/dc/elements/1.1/"}
 
 
-def get(url):
-    req = urllib.request.Request(url, headers={"User-Agent": UA, "Accept": "*/*"})
-    with urllib.request.urlopen(req, timeout=30) as r:
-        return r.read()
+def get(url, tries=3):
+    headers = {
+        "User-Agent": UA,
+        "Accept": "application/json, text/html, application/rss+xml;q=0.9, */*;q=0.8",
+        "Accept-Language": "en-US,en;q=0.9",
+    }
+    for attempt in range(tries):
+        try:
+            with urllib.request.urlopen(urllib.request.Request(url, headers=headers), timeout=30) as r:
+                return r.read()
+        except urllib.error.HTTPError as e:
+            if e.code not in (403, 429, 500, 502, 503) or attempt == tries - 1:
+                raise
+            time.sleep(3 * (attempt + 1))  # brief back-off, then retry
 
 
 def warn(msg):
