@@ -190,6 +190,8 @@ def finish(post, entry, sid):
         if not post.get(k) and entry.get(k):
             post[k] = entry[k]
     post["url"] = clean_url(post.get("url") or entry.get("url"))
+    if (post.get("image") or "").startswith("http://"):
+        post["image"] = "https://" + post["image"][7:]
     for k in ("outlet", "role"):
         if entry.get(k):
             post[k] = entry[k]
@@ -200,8 +202,8 @@ def finish(post, entry, sid):
 
 
 def main():
-    cfg = json.loads(CONFIG.read_text())
-    old = json.loads(OUT.read_text()) if OUT.exists() else {"posts": []}
+    cfg = json.loads(CONFIG.read_text(encoding="utf-8"))
+    old = json.loads(OUT.read_text(encoding="utf-8")) if OUT.exists() else {"posts": []}
     old_by_url = {p["url"]: p for p in old.get("posts", [])}
 
     all_posts, sources = [], []
@@ -257,7 +259,7 @@ def main():
         print("No changes.")
         return
     new["updated"] = datetime.now(timezone.utc).isoformat(timespec="seconds")
-    OUT.write_text(json.dumps(new, indent=2, ensure_ascii=False) + "\n")
+    OUT.write_text(json.dumps(new, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
     print(f"Wrote {len(all_posts)} posts to {OUT.relative_to(ROOT)}")
 
 
