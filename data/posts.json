@@ -3,7 +3,8 @@
     {
       "id": "personal",
       "name": "Imagining ~~Im~~Possible Futures",
-      "url": "https://stephenprochaska.substack.com"
+      "url": "https://stephenprochaska.substack.com",
+      "tag": "Personal"
     },
     {
       "id": "cip",
@@ -12,120 +13,159 @@
     },
     {
       "id": "elsewhere",
-      "name": "Other outlets",
-      "url": null
+      "name": "Other outlets"
     }
   ],
   "posts": [
     {
       "title": "The Election Was a Trap: QAnon-Linked Claims Misrepresent an Executive Order as a Tool to Overturn Midterm Results",
-      "date": "2026-11-12",
+      "subtitle": "An Election Rumor Deep Dive",
       "url": "https://uwcip.substack.com/p/the-election-was-a-trap-qanon-linked",
+      "date": "2026-11-12T23:44:04+00:00",
+      "image": "https://substackcdn.com/image/fetch/$s_!icMe!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F89a21f5f-63f4-42ac-af3a-7afeafad2501_2048x1137.png",
+      "paid": false,
       "role": "Contributor",
-      "source": "cip",
-      "paid": false
+      "source": "cip"
     },
     {
       "title": "“Proof” of a “Stolen Election”: How Misleading Charts Lend Credibility to Election Fraud Rumors",
-      "date": "2026-11-10",
+      "subtitle": "Election Rumor Deep Dive",
       "url": "https://uwcip.substack.com/p/proof-of-a-stolen-election-how-misleading",
-      "source": "cip",
-      "paid": false
+      "date": "2026-11-10T20:35:50+00:00",
+      "image": "https://substackcdn.com/image/fetch/$s_!idE8!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F81ee4576-f338-4e5e-a090-ee8e3956500b_2048x809.png",
+      "paid": false,
+      "source": "cip"
     },
     {
       "title": "Election Rumors Quiet After Trump Acknowledges Republican Losses",
-      "date": "2026-11-04",
+      "subtitle": "Election Rumor Rundown",
       "url": "https://uwcip.substack.com/p/election-rumors-quiet-after-trump",
-      "source": "cip",
-      "paid": false
+      "date": "2026-11-04T21:02:49+00:00",
+      "image": "https://substackcdn.com/image/fetch/$s_!tqMG!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F5c2834ad-3c81-4fce-8969-5cf980460e98_2048x951.png",
+      "paid": false,
+      "source": "cip"
     },
     {
       "title": "Rumors Allege Translators Are Improperly Helping Somali-Americans Vote in Maine",
-      "date": "2026-11-03",
+      "subtitle": "Election Rumor Snapshot",
       "url": "https://uwcip.substack.com/p/rumors-allege-translators-are-improperly",
-      "source": "cip",
-      "paid": false
+      "date": "2026-11-03T23:20:56+00:00",
+      "image": "https://substackcdn.com/image/fetch/$s_!wyNO!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fe21058fe-fdf3-4c56-8e01-51fd78b0d9f9_954x1178.png",
+      "paid": false,
+      "source": "cip"
     },
     {
       "title": "Tip of the Icecube: How DOJ and DHS Press Releases Turn Rare Allegations of Non-Citizen Voting Into Evidence of Widespread Fraud",
-      "date": "2026-10-30",
+      "subtitle": "An Election Rumor Deep Dive",
       "url": "https://uwcip.substack.com/p/tip-of-the-icecube-how-doj-and-dhs",
+      "date": "2026-10-30T21:08:02+00:00",
+      "image": "https://substackcdn.com/image/fetch/$s_!08pW!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fc238460a-f26b-478b-bce1-3281eab5a3c9_1774x887.png",
+      "paid": false,
       "role": "Contributor",
-      "source": "cip",
-      "paid": false
+      "source": "cip"
     },
     {
       "title": "Election Rumor Rundown October 26–28",
-      "date": "2026-10-28",
+      "subtitle": "$1 million rewards to catch voter fraud; DOJ claims 400 alleged non-citizen voters in Washington; and a fake Truth Social post",
       "url": "https://uwcip.substack.com/p/election-rumor-rundown-october-2628",
-      "source": "cip",
-      "paid": false
+      "date": "2026-10-28T21:07:13+00:00",
+      "image": "https://substackcdn.com/image/fetch/$s_!bPgH!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F565b5d7e-3bd8-4aa7-9235-3c55d78eaa31_1080x1080.jpeg",
+      "paid": false,
+      "source": "cip"
     },
     {
       "title": "We’ve Seen It Before: Common Themes to Expect On and Before Election Day",
-      "date": "2026-10-28",
+      "subtitle": "What to Expect When We&#8217;re Electing",
       "url": "https://uwcip.substack.com/p/weve-seen-it-before-common-themes",
-      "source": "cip",
-      "paid": false
+      "date": "2026-10-28T17:55:16+00:00",
+      "image": "https://substackcdn.com/image/fetch/$s_!A5Ox!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F2b84cabf-1c63-406f-b513-ae38bbba5548_1050x1050.png",
+      "paid": false,
+      "source": "cip"
     },
     {
       "title": "A Tale of Two Sullivans: Rumors Around a Department of Justice Lawsuit in Alaska",
-      "date": "2026-10-27",
+      "subtitle": "An Election Rumor Deep Dive",
       "url": "https://uwcip.substack.com/p/a-tale-of-two-sullivans-rumors-around",
-      "source": "cip",
-      "paid": false
+      "date": "2026-10-27T18:54:39+00:00",
+      "image": "https://substackcdn.com/image/fetch/$s_!vIFE!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F3bd2f404-bfc6-45c8-b820-8d314b3e1680_2000x1195.jpeg",
+      "paid": false,
+      "source": "cip"
     },
     {
       "title": "Election Rumor Rundown October 24",
-      "date": "2026-10-24",
+      "subtitle": "Emerging stories about election integrity &#8212; and the rumors taking shape around them &#8212; from Washington, Minnesota, and Arizona",
       "url": "https://uwcip.substack.com/p/election-rumor-rundown-october-24",
+      "date": "2026-10-24T18:42:40+00:00",
+      "image": "https://substackcdn.com/image/fetch/$s_!lKK4!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F3f580cbc-a48e-4c17-90b1-64083152803e_2048x1365.jpeg",
+      "paid": false,
       "role": "Contributor",
-      "source": "cip",
-      "paid": false
+      "source": "cip"
     },
     {
       "title": "From Confession to Conspiracy: How the Wedgewood Fake Polls Story Spread",
-      "date": "2026-10-23",
+      "subtitle": "A Rumor Deep Dive",
       "url": "https://uwcip.substack.com/p/from-confession-to-conspiracy-how",
-      "source": "cip",
-      "paid": false
+      "date": "2026-10-23T22:46:32+00:00",
+      "image": "https://substackcdn.com/image/fetch/$s_!V6ux!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F50eaa428-31a4-4365-8231-cc2503a889f1_1624x866.png",
+      "paid": false,
+      "source": "cip"
     },
     {
       "title": "Election Rumor Rundown October 22",
-      "date": "2026-10-22",
+      "subtitle": "Machines switching votes on Dolly Parton&#8217;s sister in Tennessee, ballots returned to senders, and other sources of rumoring",
       "url": "https://uwcip.substack.com/p/election-rumor-rundown-october-22",
+      "date": "2026-10-22T18:18:20+00:00",
+      "image": "https://substackcdn.com/image/fetch/$s_!ovQ3!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F784e7265-26db-41bd-83be-8ee636a8242c_1588x1582.png",
+      "paid": false,
       "role": "Contributor",
-      "source": "cip",
-      "paid": false
+      "source": "cip"
     },
     {
       "title": "Election Rumor Rundown October 20",
-      "date": "2026-10-21",
+      "subtitle": "Arrests of alleged non-citizen voters in California create a media spectacle, false rumors of overseas absentee ballot fraud in Michigan and more",
       "url": "https://uwcip.substack.com/p/election-rumor-rundown-october-20",
-      "source": "cip",
-      "paid": false
+      "date": "2026-10-21T01:37:28.963Z",
+      "image": "https://substackcdn.com/image/fetch/$s_!V5ra!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fb0195093-536f-4c05-9eab-e92a26aa3534_898x698.png",
+      "paid": false,
+      "source": "cip"
+    },
+    {
+      "title": "Industrial Illusions",
+      "subtitle": "Reflecting on research identity amidst external pressure",
+      "url": "https://stephenprochaska.substack.com/p/industrial-illusions",
+      "date": "2026-10-17T00:04:37+00:00",
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/07/Blind_men_and_elephant4.jpg/500px-Blind_men_and_elephant4.jpg",
+      "paid": false,
+      "image_credit": "Image: Wikipedia",
+      "source": "personal"
     },
     {
       "title": "Election Rumor Rundown October 13",
-      "date": "2026-10-13",
+      "subtitle": "DHS reports misconstrue vulnerabilities as having been exploited, “Ballot Dumping” in Valley Center misleadingly suggest mass voter fraud, and prediction markets already advertising election betting",
       "url": "https://uwcip.substack.com/p/election-rumor-rundown-october-13",
+      "date": "2026-10-13T18:04:16.064Z",
+      "image": "https://substackcdn.com/image/fetch/$s_!5zVV!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F98df191a-b4e5-48d3-ad73-939c1b27991b_1500x688.png",
+      "paid": false,
       "role": "Contributor",
-      "source": "cip",
-      "paid": false
+      "source": "cip"
     },
     {
       "title": "Federal Fraud Charges Resonate With Debunked Non-Citizen Voting Narratives",
-      "date": "2026-10-07",
+      "subtitle": "A flurry of recent charges and press conferences amplifying alleged non-citizen voting make a small phenomena seem bigger",
       "url": "https://uwcip.substack.com/p/federal-fraud-charges-resonate-with",
-      "source": "cip",
-      "paid": false
+      "date": "2026-10-07T01:13:27.431Z",
+      "image": "https://substackcdn.com/image/fetch/$s_!Pfnp!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F68dd76d3-c12a-488e-9d2f-68a616200476_1920x884.png",
+      "paid": false,
+      "source": "cip"
     },
     {
       "title": "Recent Utah, Texas incidents fuel rumors and political narratives undermining trust in election integrity",
-      "date": "2026-09-27",
+      "subtitle": "A CIP Election Rumor Rundown",
       "url": "https://uwcip.substack.com/p/recent-utah-texas-incidents-fuel",
-      "source": "cip",
-      "paid": false
+      "date": "2026-09-27T14:01:35.895Z",
+      "image": "https://substackcdn.com/image/fetch/$s_!rsFt!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fbfd3aea9-2a8a-480d-9882-975938113e02_1908x1029.png",
+      "paid": false,
+      "source": "cip"
     },
     {
       "title": "How Strategic Litigation Feeds On and Fuels Political Narrative",
@@ -139,10 +179,21 @@
     },
     {
       "title": "Conspiracy theory spreading on social media about Starlink interfering with election results",
-      "date": "2024-11-18",
+      "subtitle": "Rapid Research Note",
       "url": "https://uwcip.substack.com/p/conspiracy-theory-spreading-on-social",
-      "source": "cip",
-      "paid": false
+      "date": "2024-11-18T19:10:46.493Z",
+      "image": "https://substackcdn.com/image/fetch/$s_!uPa2!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fd70d2b45-0de7-46ae-9262-04f5c4461923_1600x1163.png",
+      "paid": false,
+      "source": "cip"
+    },
+    {
+      "title": "A Guide to Voting Machine Rumors",
+      "subtitle": "The \"What to Expect When We’re Electing\" Series",
+      "url": "https://uwcip.substack.com/p/a-guide-to-voting-machine-rumors",
+      "date": "2024-11-05T04:59:20.222Z",
+      "image": "https://substackcdn.com/image/fetch/$s_!PA0g!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fc542e0c7-b326-4c2c-bcd2-53f2c03bf315_1600x638.png",
+      "paid": false,
+      "source": "cip"
     },
     {
       "title": "We research rumors. Here’s how the right’s election denial machine has evolved.",
@@ -155,13 +206,6 @@
       "source": "elsewhere"
     },
     {
-      "title": "A Guide to Voting Machine Rumors",
-      "date": "2024-11-04",
-      "url": "https://uwcip.substack.com/p/a-guide-to-voting-machine-rumors",
-      "source": "cip",
-      "paid": false
-    },
-    {
       "title": "Misinformation is more than just bad facts: How and why people spread rumors is key to understanding how false information travels and takes root",
       "subtitle": "Spreading rumors is human nature. It’s a way people try to make sense of a messy world. In the age of social media and disinformation campaigns, it’s also how people can be misled.",
       "url": "http://theconversation.com/misinformation-is-more-than-just-bad-facts-how-and-why-people-spread-rumors-is-key-to-understanding-how-false-information-travels-and-takes-root-241748",
@@ -172,81 +216,103 @@
       "source": "elsewhere"
     },
     {
-      "title": "Making the Case: Evidence Generation Infrastructure in the 2024 Election",
-      "date": "2024-10-29",
-      "url": "https://uwcip.substack.com/p/making-the-case-evidence-generation",
-      "source": "cip",
-      "paid": false
+      "title": "Unfolding blame game between Left and Right as Pennsylvania announces fraudulent voter registrations in Lancaster County",
+      "subtitle": "Rapid Research Note",
+      "url": "https://uwcip.substack.com/p/unfolding-blame-game-between-left",
+      "date": "2024-10-29T22:32:53.346Z",
+      "image": "https://substackcdn.com/image/fetch/f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F3d2db917-5402-4702-aab2-a3cf1e0057ef_2000x1455.png",
+      "paid": false,
+      "source": "cip"
     },
     {
-      "title": "Unfolding blame game between Left and Right as Pennsylvania announces 2,500 fraudulent voter registrations in Lancaster County",
-      "date": "2024-10-29",
-      "url": "https://uwcip.substack.com/p/unfolding-blame-game-between-left",
-      "source": "cip",
-      "paid": false
+      "title": "Making the Case: Evidence Generation Infrastructure in the 2024 Election",
+      "subtitle": "Rapid Research Report",
+      "url": "https://uwcip.substack.com/p/making-the-case-evidence-generation",
+      "date": "2024-10-29T19:33:42.283Z",
+      "image": "https://substackcdn.com/image/fetch/$s_!E8pg!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F6b4e71ee-ce7e-4a47-add3-f0e9d54646fd_500x500.gif",
+      "paid": false,
+      "source": "cip"
     },
     {
       "title": "Follow-up: UOCAVA lawsuits filed in swing states following rumors alleging insecurity in overseas voting processes",
-      "date": "2024-10-24",
+      "subtitle": "Rapid Research Note",
       "url": "https://uwcip.substack.com/p/follow-up-uocava-lawsuits-filed-in",
-      "source": "cip",
-      "paid": false
+      "date": "2024-10-24T12:01:37.657Z",
+      "image": "https://substackcdn.com/image/fetch/$s_!KzE3!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F0f5c982f-eaac-4984-a528-9eeb3cbe90d3_2048x1536.jpeg",
+      "paid": false,
+      "source": "cip"
     },
     {
       "title": "Florida sues the Department of Homeland Security for citizenship data, sparking rumors",
-      "date": "2024-10-23",
+      "subtitle": "Rapid Research Post",
       "url": "https://uwcip.substack.com/p/florida-sues-the-department-of-homeland",
-      "source": "cip",
-      "paid": false
+      "date": "2024-10-23T22:59:36.310Z",
+      "image": "https://substackcdn.com/image/fetch/$s_!Rwuz!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fbd636bfe-d12d-44f8-a778-40c103fd5e5b_2000x1454.png",
+      "paid": false,
+      "source": "cip"
     },
     {
       "title": "Rumors Rapidly Spreading About Reissued Department of Defense Directive 5240.01",
-      "date": "2024-10-18",
+      "subtitle": "Rapid Research Post",
       "url": "https://uwcip.substack.com/p/rumors-rapidly-spreading-about-reissued",
-      "source": "cip",
-      "paid": false
+      "date": "2024-10-18T19:50:14.172Z",
+      "image": "https://substackcdn.com/image/fetch/$s_!eRSG!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F2ec94e10-bc31-4414-81ae-abc55d8342cb_1600x1173.png",
+      "paid": false,
+      "source": "cip"
     },
     {
       "title": "Breaking News in the Hands of a Few: Newsbrokering on X During the Trump Assassination Attempts",
-      "date": "2024-10-14",
+      "subtitle": "Research Report",
       "url": "https://uwcip.substack.com/p/breaking-news-in-the-hands-of-a-few",
-      "source": "cip",
-      "paid": false
+      "date": "2024-10-14T22:04:31.570Z",
+      "image": "https://substackcdn.com/image/fetch/$s_!quW0!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ff79ae113-d885-4d63-bb53-1810e7d30d88_1277x719.png",
+      "paid": false,
+      "source": "cip"
     },
     {
       "title": "Error in Arizona’s Voter Registration System Fuels Rumors of Non-Citizen Voting",
-      "date": "2024-10-10",
+      "subtitle": "Rapid Research Analysis",
       "url": "https://uwcip.substack.com/p/error-in-arizonas-voter-registration",
-      "source": "cip",
-      "paid": false
+      "date": "2024-10-11T01:42:56.589Z",
+      "image": "https://substackcdn.com/image/fetch/$s_!Fot5!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F84405d3f-2382-49fc-9bf8-c8788cc0033d_1600x995.jpeg",
+      "paid": false,
+      "source": "cip"
     },
     {
       "title": "The Anatomy of 3 Videos Alleging that Many Non-Citizens Are Registered to Vote in U.S. Elections",
-      "date": "2024-10-09",
-      "url": "https://uwcip.substack.com/p/2b6ac873-058f-48b3-8ebf-04cc582fa49d",
-      "source": "cip",
-      "paid": false
+      "subtitle": "Rapid Research Note",
+      "url": "https://uwcip.substack.com/p/the-anatomy-of-3-videos-alleging",
+      "date": "2024-10-09T19:42:09.277Z",
+      "image": "https://substackcdn.com/image/fetch/$s_!O3-e!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F78a558e4-75c8-46d9-b150-c64eb96e0b3b_1388x1072.png",
+      "paid": false,
+      "source": "cip"
     },
     {
       "title": "Making Sense of Election Rumors Emerging From Hurricane Helene",
-      "date": "2024-10-08",
+      "subtitle": "Rapid Research Analysis",
       "url": "https://uwcip.substack.com/p/making-sense-of-election-rumors-emerging",
-      "source": "cip",
-      "paid": false
+      "date": "2024-10-09T05:09:27.684Z",
+      "image": "https://substackcdn.com/image/fetch/$s_!ImLs!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fbc74ba49-2f20-40c1-9f93-f003e0a310f5_1600x1200.jpeg",
+      "paid": false,
+      "source": "cip"
     },
     {
-      "title": "What to Expect When We’re Electing: An Object-Oriented Framework for Pre-Election Rumors",
-      "date": "2024-10-02",
+      "title": "An Object-Oriented Framework for Pre-Election Rumors",
+      "subtitle": "The \"What to Expect When We’re Electing\" Series",
       "url": "https://uwcip.substack.com/p/2024-election-rumors-object-oriented-framework",
-      "source": "cip",
-      "paid": false
+      "date": "2024-10-02T17:00:23.816Z",
+      "image": "https://substackcdn.com/image/fetch/$s_!BfE5!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ffa7be647-95cd-4cf8-a8f9-25299844c25f_1600x1200.jpeg",
+      "paid": false,
+      "source": "cip"
     },
     {
       "title": "Examining rumors that Democrats are trying to commit voter fraud via the Uniformed and Overseas Citizens Absentee Voting Act (UOCAVA)",
-      "date": "2024-10-01",
+      "subtitle": "Rapid Research Analysis",
       "url": "https://uwcip.substack.com/p/examining-rumors-that-democrats-are",
-      "source": "cip",
-      "paid": false
+      "date": "2024-10-01T17:00:56.512Z",
+      "image": "https://substackcdn.com/image/fetch/$s_!7S_K!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fad30543e-4193-4602-afde-1156f2ad8c22_7200x4800.jpeg",
+      "paid": false,
+      "source": "cip"
     },
     {
       "title": "Rumors questioning the legality and legitimacy of the presumptive Democratic presidential nominee",
@@ -309,5 +375,5 @@
       "source": "elsewhere"
     }
   ],
-  "updated": "2026-11-18T23:11:37+00:00"
+  "updated": "2026-11-18T23:27:50+00:00"
 }
