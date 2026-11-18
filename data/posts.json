@@ -129,11 +129,13 @@
     },
     {
       "title": "How Strategic Litigation Feeds On and Fuels Political Narrative",
-      "date": "2025",
+      "subtitle": "Fringe election fraud rumors are becoming legal drama—weaponized lawsuits and policies that present fiction as fact on social media.",
       "url": "https://www.lawfaremedia.org/article/how-strategic-litigation-feeds-on-and--fuels-political-narrative",
+      "date": "2025",
+      "image": null,
+      "paid": false,
       "outlet": "Lawfare",
-      "source": "elsewhere",
-      "paid": false
+      "source": "elsewhere"
     },
     {
       "title": "Conspiracy theory spreading on social media about Starlink interfering with election results",
@@ -143,6 +145,16 @@
       "paid": false
     },
     {
+      "title": "We research rumors. Here’s how the right’s election denial machine has evolved.",
+      "subtitle": "The lasting election denialism sown in 2020 altered election administration, enfranchisement, and election trust — often for the worse.",
+      "url": "https://www.msnbc.com/opinion/msnbc-opinion/election-2024-fraud-rumors-pennsylvania-trump-harris-rcna178710",
+      "date": "2024-11-04T23:43:40+00:00",
+      "image": "https://www.ms.now/wp-content/uploads/2025/09/241104-stop-the-steal-sign-se-253p-956a03.jpg",
+      "paid": false,
+      "outlet": "MSNBC",
+      "source": "elsewhere"
+    },
+    {
       "title": "A Guide to Voting Machine Rumors",
       "date": "2024-11-04",
       "url": "https://uwcip.substack.com/p/a-guide-to-voting-machine-rumors",
@@ -150,20 +162,14 @@
       "paid": false
     },
     {
-      "title": "We research rumors. Here’s how the right’s 2024 election denial machine has evolved.",
-      "date": "2024-11-04",
-      "url": "https://www.msnbc.com/opinion/msnbc-opinion/election-2024-fraud-rumors-pennsylvania-trump-harris-rcna178710",
-      "outlet": "MSNBC",
-      "source": "elsewhere",
-      "paid": false
-    },
-    {
       "title": "Misinformation is more than just bad facts: How and why people spread rumors is key to understanding how false information travels and takes root",
-      "date": "2024-10-30",
+      "subtitle": "Spreading rumors is human nature. It’s a way people try to make sense of a messy world. In the age of social media and disinformation campaigns, it’s also how people can be misled.",
       "url": "http://theconversation.com/misinformation-is-more-than-just-bad-facts-how-and-why-people-spread-rumors-is-key-to-understanding-how-false-information-travels-and-takes-root-241748",
+      "date": "2024-10-30",
+      "image": "https://images.theconversation.com/files/628098/original/file-20241024-17-2lkkqd.jpg?ixlib=rb-4.1.1&rect=6%2C1265%2C4671%2C2335&q=45&auto=format&w=1356&h=668&fit=crop",
+      "paid": false,
       "outlet": "The Conversation",
-      "source": "elsewhere",
-      "paid": false
+      "source": "elsewhere"
     },
     {
       "title": "Making the Case: Evidence Generation Infrastructure in the 2024 Election",
@@ -244,52 +250,64 @@
     },
     {
       "title": "Rumors questioning the legality and legitimacy of the presumptive Democratic presidential nominee",
-      "date": "2024-07-31",
+      "subtitle": "In this unprecedented moment of American electoral history, we will continue to see narratives that question the legality and legitimacy of a nomination process, even once some of those answers hav…",
       "url": "https://www.cip.uw.edu/2024/07/31/rumors-kamala-harris-legitimacy-nomination",
+      "date": "2024-07-31T23:03:38+00:00",
+      "image": "https://www.cip.uw.edu/files/2024/07/VP_Harris.jpg",
+      "paid": false,
       "outlet": "Center for an Informed Public",
-      "source": "elsewhere",
-      "paid": false
+      "source": "elsewhere"
     },
     {
-      "title": "Rumors sparked by assassination attempt spread rapidly on both ends of the spectrum",
-      "date": "2024-07-29",
+      "title": "Online rumors sparked by the Trump assassination attempt spread rapidly, on both ends of the political spectrum",
+      "subtitle": "Tomson is research manager for the Center for an Informed Public and the University of Washington. Haughey and Prochaska are graduate research assistants and the Center for an Informed Public. \n\tIn the immediate hours after the assassination attempt on former president Donald Trump on July 13, 2024...",
       "url": "https://thefulcrum.us/media-technology/assassination-rumors-donald-trump",
+      "date": "2024-07-29T04:20:01+00:00",
+      "image": "https://thefulcrum.us/media-library/donald-trump-taken-off-stage-by-secret-service.jpg?id=52681355&width=1200&height=600&coordinates=0%2C206%2C0%2C206",
+      "paid": false,
       "outlet": "The Fulcrum",
-      "source": "elsewhere",
-      "paid": false
+      "source": "elsewhere"
     },
     {
       "title": "Making sense of rumors about the Trump assassination attempt",
-      "date": "2024-07-15",
+      "subtitle": "We share some of what we have seen on social media and other online spaces in the aftermath of the Trump assassination attempt, and put that into context based on what we know about how people use …",
       "url": "https://www.cip.uw.edu/2024/07/15/trump-assassination-rumors-collective-sensemaking",
+      "date": "2024-07-15T20:13:03+00:00",
+      "image": "https://www.cip.uw.edu/files/2024/07/trump_assassination_attempt_rumors.png",
+      "paid": false,
       "outlet": "Center for an Informed Public",
-      "source": "elsewhere",
-      "paid": false
+      "source": "elsewhere"
     },
     {
-      "title": "Misinformed Monitors: How Conspiracy Theories Surrounding “Ballot Mules” Led to Accusations of Voter Intimidation",
-      "date": "2022-11-07",
+      "title": "Misinformed Monitors: How Conspiracy Theories Surrounding “Ballot Mules” Led to Accusations of Voter Intimidation — Election Integrity Partnership",
+      "subtitle": "The EIP explores online conversation on Twitter and alt-platforms Truth Social and Telegram related to the monitoring of ballot drop boxes.",
       "url": "https://www.eipartnership.net/blog/conspiracy-theories-ballot-mules-voter-intimidation",
+      "date": "2022-11-07",
+      "image": "http://static1.squarespace.com/static/5f19d72fae0908591b9feccb/62bb5b670b2e27699958be10/63689cac8438c360b371c60d/1667865495299/EIP2022_Ballot_Box_Intimindation_Clean_Elections_usa.jpg?format=1500w",
+      "paid": false,
       "outlet": "Election Integrity Partnership",
-      "source": "elsewhere",
-      "paid": false
+      "source": "elsewhere"
     },
     {
-      "title": "Voting Rights Legislation Framed to Support Election Conspiracy Theories About Non-citizens Voting",
-      "date": "2022-10-07",
+      "title": "Voting Rights Legislation Framed to Support Election Conspiracy Theories About Non-citizens Voting — Election Integrity Partnership",
+      "subtitle": "Election Integrity Partnership (EIP) researchers examined online discourse around two situations earlier this year — New York City’s law allowing non-citizens to vote in local elections and the U.S. Department of Justice’s challenge of an Arizona state law — to gauge the current level and nature of",
       "url": "https://www.eipartnership.net/blog/non-citizen-voting-conspiracy-theory",
+      "date": "2022-10-07",
+      "image": "http://static1.squarespace.com/static/5f19d72fae0908591b9feccb/62bb5b670b2e27699958be10/6333b8282e7d1e62065c7512/1673386290273/NY_City_Hall_Arizona_Capitol_composite.jpg?format=1500w",
+      "paid": false,
       "outlet": "Election Integrity Partnership",
-      "source": "elsewhere",
-      "paid": false
+      "source": "elsewhere"
     },
     {
       "title": "The rise of “trafficking” language in ballot collection narratives",
-      "date": "2022-04-30",
+      "subtitle": "Researchers from the Center for an Informed Public at the University of Washington explain how rhetoric around “ballot trafficking” encompasses a potentially misleading framing of ballot collection…",
       "url": "https://www.cip.uw.edu/2022/04/30/ballot-trafficking-collection-narratives",
+      "date": "2022-04-30T21:32:03+00:00",
+      "image": "https://www.cip.uw.edu/files/2022/04/ballot_bin_orange_county_california.jpg",
+      "paid": false,
       "outlet": "Center for an Informed Public",
-      "source": "elsewhere",
-      "paid": false
+      "source": "elsewhere"
     }
   ],
-  "updated": "2026-11-18T21:34:47+00:00"
+  "updated": "2026-11-18T22:03:38+00:00"
 }
