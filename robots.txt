@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://prochaskas.github.io/sitemap.xml
