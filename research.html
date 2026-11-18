@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Formal Research | Stephen Prochaska</title>
+  <meta name="description" content="Publications by Stephen Prochaska on election rumors, disinformation, and collective sensemaking.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Literata:ital,opsz,wght@0,7..72,400..700;1,7..72,400..700&family=Public+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+  <a class="skip" href="#main">Skip to content</a>
+  <header class="site-header">
+    <div class="wrap">
+      <a class="site-name" href="./">Stephen Prochaska</a>
+      <nav class="site-nav" aria-label="Main">
+        <a href="writing.html">Public Writing</a>
+        <a href="research.html" aria-current="page">Formal Research</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <div class="wrap">
+      <h1 class="page-title">Formal Research</h1>
+      <!-- EDIT: intro sentence -->
+      <p class="page-intro">Papers, preprints, and talks on election rumors, participatory disinformation, and collective sensemaking online.</p>
+
+      <div class="research">
+        <aside class="graph-panel" aria-labelledby="graph-title">
+          <h2 id="graph-title">Collaborators</h2>
+          <p class="caption">Each circle is a co-author. The closer to the center, the more papers and talks we share. Lines join people who worked on the same piece. Select someone to filter the list.</p>
+          <div id="coauthor-graph"></div>
+          <div class="topics" id="topics" role="group" aria-label="Filter by topic"></div>
+        </aside>
+
+        <section aria-label="Publications">
+          <p class="filter-note" id="filter-note" aria-live="polite"></p>
+          <div id="pub-list"></div>
+        </section>
+      </div>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap"><p>© <span data-year></span> Stephen Prochaska</p></div>
+  </footer>
+
+  <script src="assets/js/vendor/d3.min.js"></script>
+  <script type="module" src="assets/js/research.js"></script>
+</body>
+</html>

@@ -1,0 +1,131 @@
+{
+  "_help": "'me' and 'aliases' are how your name appears in author lists. Write each co-author's name the same way every time: that's how the network links papers. Add * after a name for equal contribution. 'type' becomes the filter buttons. 'status' (e.g. Under review) groups a paper under that label instead of its year. 'url', 'links', 'note' are optional.",
+  "me": "S. Prochaska",
+  "aliases": ["Stephen Prochaska", "Prochaska, S."],
+  "publications": [
+    {
+      "title": "Conflicting Agendas: Analyzing Conflict Information Environments through Temporal Semantic Clustering",
+      "authors": ["S. Prochaska*", "D. Farr*", "I. Cruickshank", "J. West", "K. Starbird"],
+      "venue": "International AAAI Conference on Web and Social Media (ICWSM)",
+      "year": 2027,
+      "status": "Under review",
+      "type": "Papers"
+    },
+    {
+      "title": "New Election, Same Old Story: How Tropes Form a Grammar of Election Rumors",
+      "authors": ["S. Prochaska*", "M. Bayar*", "A. Aske", "J. Schafer", "K. Starbird"],
+      "venue": "arXiv preprint 2610.37804",
+      "year": 2026,
+      "url": "https://doi.org/10.48550/arXiv.2610.37804",
+      "type": "Preprints & white papers"
+    },
+    {
+      "title": "Making Sense of AI-Generated Disinformation: How Audience Interpretations Influence the Impact of Deepfakes in Kenya",
+      "authors": ["M. Wack", "S. Prochaska"],
+      "venue": "Social Media + Society, 12(3)",
+      "year": 2026,
+      "url": "https://doi.org/10.1177/20563051261462092",
+      "type": "Papers"
+    },
+    {
+      "title": "Tracing Information Dynamics in Crisis Events",
+      "authors": ["S. Prochaska*", "D. Farr*", "L. Ng", "I. Cruickshank", "J. West", "K. Starbird"],
+      "venue": "International Conference on Computational Social Science (IC2S2)",
+      "year": 2026,
+      "type": "Presentations"
+    },
+    {
+      "title": "Simulating Misinformation Vulnerabilities with Agent Personas",
+      "authors": ["D. Farr", "L. Ng", "S. Prochaska", "I. Cruickshank", "J. West"],
+      "venue": "Proceedings of the 2025 Winter Simulation Conference",
+      "year": 2025,
+      "type": "Papers"
+    },
+    {
+      "title": "Deep Storytelling: Collective Sensemaking and Layers of Meaning in U.S. Elections",
+      "authors": ["S. Prochaska", "J. Vera", "D. Lew Tan", "B. Yamron", "S. Venuto", "A. Kejriwal", "S. Chu", "K. Starbird"],
+      "venue": "Proceedings of the ACM on Human-Computer Interaction, 9(CSCW)",
+      "year": 2025,
+      "url": "https://doi.org/10.1145/3757576",
+      "type": "Papers"
+    },
+    {
+      "title": "What is going on? An evidence-frame framework for analyzing online rumors about election integrity",
+      "authors": ["K. Starbird", "S. Prochaska", "B. Yamron"],
+      "venue": "Proceedings of the ACM on Human-Computer Interaction, 9(CSCW)",
+      "year": 2025,
+      "url": "https://doi.org/10.1145/3757522",
+      "type": "Papers"
+    },
+    {
+      "title": "Candidates Be Posting: Multi-Platform Strategies and Partisan Preferences in the 2022 U.S. Midterm Elections",
+      "authors": ["J. Lukito", "M. Macdonald", "B. Chen", "M. A. Brown", "S. Prochaska", "Y. Yang", "J. Greenfield", "J. Suk", "W. Zhong", "R. Dahlke", "P. Borah"],
+      "venue": "Social Media + Society, 11(2)",
+      "year": 2025,
+      "url": "https://doi.org/10.1177/20563051251337541",
+      "type": "Papers"
+    },
+    {
+      "title": "Evidence Generation Infrastructure for Election Rumors",
+      "authors": ["D. Tomson", "S. Prochaska"],
+      "venue": "Misinformation in Elections Conference, Linde Center for Science, Society, and Policy, Caltech",
+      "year": 2025,
+      "type": "Presentations"
+    },
+    {
+      "title": "ElectionRumors2022: A Dataset of Election Rumors on Twitter During the 2022 US Midterms",
+      "authors": ["J. Schafer", "K. Duskin", "S. Prochaska", "M. Wack", "A. Beers", "L. Bozarth", "T. Agajanian", "M. Caulfield", "E. Spiro", "K. Starbird"],
+      "venue": "arXiv preprint 2407.16051",
+      "year": 2024,
+      "url": "https://doi.org/10.48550/arXiv.2407.16051",
+      "type": "Papers"
+    },
+    {
+      "title": "Misleading Ourselves: How Disinformation Manipulates Sensemaking",
+      "authors": ["S. Prochaska", "J. Vera", "D. Lew Tan", "K. Starbird"],
+      "venue": "Sensemaking Workshop, CHI",
+      "year": 2024,
+      "type": "Preprints & white papers"
+    },
+    {
+      "title": "Mobilizing Manufactured Reality: How Participatory Disinformation Shaped Deep Stories to Catalyze Action during the 2020 U.S. Presidential Election",
+      "authors": ["S. Prochaska", "K. Duskin", "Z. Kharazian", "C. Minow", "S. Blucker", "S. Venuto", "J. West", "K. Starbird"],
+      "venue": "Proceedings of the ACM on Human-Computer Interaction, 7(CSCW1)",
+      "year": 2023,
+      "url": "https://doi.org/10.1145/3579616",
+      "type": "Papers"
+    },
+    {
+      "title": "Navigating Information-Seeking in Conspiratorial Waters: Anti-Trafficking Advocacy and Education Post QAnon",
+      "authors": ["R. E. Moran", "S. Prochaska", "I. Grasso", "I. Schlegel"],
+      "venue": "Proceedings of the ACM on Human-Computer Interaction, 7(CSCW1)",
+      "year": 2023,
+      "url": "https://doi.org/10.1145/3579510",
+      "type": "Papers"
+    },
+    {
+      "title": "The Challenges of Studying Misinformation on Video-Sharing Platforms During Crises and Mass-Convergence Events",
+      "authors": ["S. Venkatagiri", "J. Schafer", "S. Prochaska"],
+      "venue": "arXiv preprint 2303.14309",
+      "year": 2023,
+      "url": "https://doi.org/10.48550/arXiv.2303.14309",
+      "type": "Papers"
+    },
+    {
+      "title": "Misinformation or activism?: Analyzing networked moral panic through an exploration of #SaveTheChildren",
+      "authors": ["R. E. Moran", "S. Prochaska"],
+      "venue": "Information, Communication & Society",
+      "year": 2022,
+      "url": "https://doi.org/10.1080/1369118X.2022.2146986",
+      "links": { "Earlier version (AoIR 2021)": "https://doi.org/10.5210/spir.v2021i0.12212" },
+      "type": "Papers"
+    },
+    {
+      "title": "Deepfakes in the 2020 Elections and Beyond: Lessons From the 2020 Workshop Series",
+      "authors": ["S. Prochaska", "M. Grass", "J. West"],
+      "venue": "University of Washington Center for an Informed Public (white paper)",
+      "year": 2020,
+      "type": "Preprints & white papers"
+    }
+  ]
+}

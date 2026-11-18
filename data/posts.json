@@ -1,0 +1,295 @@
+{
+  "sources": [
+    {
+      "id": "personal",
+      "name": "Imagining ~~Im~~Possible Futures",
+      "url": "https://stephenprochaska.substack.com"
+    },
+    {
+      "id": "cip",
+      "name": "Election Rumor Rundown",
+      "url": "https://uwcip.substack.com"
+    },
+    {
+      "id": "elsewhere",
+      "name": "Other outlets",
+      "url": null
+    }
+  ],
+  "posts": [
+    {
+      "title": "The Election Was a Trap: QAnon-Linked Claims Misrepresent an Executive Order as a Tool to Overturn Midterm Results",
+      "date": "2026-11-12",
+      "url": "https://uwcip.substack.com/p/the-election-was-a-trap-qanon-linked",
+      "role": "Contributor",
+      "source": "cip",
+      "paid": false
+    },
+    {
+      "title": "“Proof” of a “Stolen Election”: How Misleading Charts Lend Credibility to Election Fraud Rumors",
+      "date": "2026-11-10",
+      "url": "https://uwcip.substack.com/p/proof-of-a-stolen-election-how-misleading",
+      "source": "cip",
+      "paid": false
+    },
+    {
+      "title": "Election Rumors Quiet After Trump Acknowledges Republican Losses",
+      "date": "2026-11-04",
+      "url": "https://uwcip.substack.com/p/election-rumors-quiet-after-trump",
+      "source": "cip",
+      "paid": false
+    },
+    {
+      "title": "Rumors Allege Translators Are Improperly Helping Somali-Americans Vote in Maine",
+      "date": "2026-11-03",
+      "url": "https://uwcip.substack.com/p/rumors-allege-translators-are-improperly",
+      "source": "cip",
+      "paid": false
+    },
+    {
+      "title": "Tip of the Icecube: How DOJ and DHS Press Releases Turn Rare Allegations of Non-Citizen Voting Into Evidence of Widespread Fraud",
+      "date": "2026-10-30",
+      "url": "https://uwcip.substack.com/p/tip-of-the-icecube-how-doj-and-dhs",
+      "role": "Contributor",
+      "source": "cip",
+      "paid": false
+    },
+    {
+      "title": "Election Rumor Rundown October 26–28",
+      "date": "2026-10-28",
+      "url": "https://uwcip.substack.com/p/election-rumor-rundown-october-2628",
+      "source": "cip",
+      "paid": false
+    },
+    {
+      "title": "We’ve Seen It Before: Common Themes to Expect On and Before Election Day",
+      "date": "2026-10-28",
+      "url": "https://uwcip.substack.com/p/weve-seen-it-before-common-themes",
+      "source": "cip",
+      "paid": false
+    },
+    {
+      "title": "A Tale of Two Sullivans: Rumors Around a Department of Justice Lawsuit in Alaska",
+      "date": "2026-10-27",
+      "url": "https://uwcip.substack.com/p/a-tale-of-two-sullivans-rumors-around",
+      "source": "cip",
+      "paid": false
+    },
+    {
+      "title": "Election Rumor Rundown October 24",
+      "date": "2026-10-24",
+      "url": "https://uwcip.substack.com/p/election-rumor-rundown-october-24",
+      "role": "Contributor",
+      "source": "cip",
+      "paid": false
+    },
+    {
+      "title": "From Confession to Conspiracy: How the Wedgewood Fake Polls Story Spread",
+      "date": "2026-10-23",
+      "url": "https://uwcip.substack.com/p/from-confession-to-conspiracy-how",
+      "source": "cip",
+      "paid": false
+    },
+    {
+      "title": "Election Rumor Rundown October 22",
+      "date": "2026-10-22",
+      "url": "https://uwcip.substack.com/p/election-rumor-rundown-october-22",
+      "role": "Contributor",
+      "source": "cip",
+      "paid": false
+    },
+    {
+      "title": "Election Rumor Rundown October 20",
+      "date": "2026-10-21",
+      "url": "https://uwcip.substack.com/p/election-rumor-rundown-october-20",
+      "source": "cip",
+      "paid": false
+    },
+    {
+      "title": "Election Rumor Rundown October 13",
+      "date": "2026-10-13",
+      "url": "https://uwcip.substack.com/p/election-rumor-rundown-october-13",
+      "role": "Contributor",
+      "source": "cip",
+      "paid": false
+    },
+    {
+      "title": "Federal Fraud Charges Resonate With Debunked Non-Citizen Voting Narratives",
+      "date": "2026-10-07",
+      "url": "https://uwcip.substack.com/p/federal-fraud-charges-resonate-with",
+      "source": "cip",
+      "paid": false
+    },
+    {
+      "title": "Recent Utah, Texas incidents fuel rumors and political narratives undermining trust in election integrity",
+      "date": "2026-09-27",
+      "url": "https://uwcip.substack.com/p/recent-utah-texas-incidents-fuel",
+      "source": "cip",
+      "paid": false
+    },
+    {
+      "title": "How Strategic Litigation Feeds On and Fuels Political Narrative",
+      "date": "2025",
+      "url": "https://www.lawfaremedia.org/article/how-strategic-litigation-feeds-on-and--fuels-political-narrative",
+      "outlet": "Lawfare",
+      "source": "elsewhere",
+      "paid": false
+    },
+    {
+      "title": "Conspiracy theory spreading on social media about Starlink interfering with election results",
+      "date": "2024-11-18",
+      "url": "https://uwcip.substack.com/p/conspiracy-theory-spreading-on-social",
+      "source": "cip",
+      "paid": false
+    },
+    {
+      "title": "A Guide to Voting Machine Rumors",
+      "date": "2024-11-04",
+      "url": "https://uwcip.substack.com/p/a-guide-to-voting-machine-rumors",
+      "source": "cip",
+      "paid": false
+    },
+    {
+      "title": "We research rumors. Here’s how the right’s 2024 election denial machine has evolved.",
+      "date": "2024-11-04",
+      "url": "https://www.msnbc.com/opinion/msnbc-opinion/election-2024-fraud-rumors-pennsylvania-trump-harris-rcna178710",
+      "outlet": "MSNBC",
+      "source": "elsewhere",
+      "paid": false
+    },
+    {
+      "title": "Misinformation is more than just bad facts: How and why people spread rumors is key to understanding how false information travels and takes root",
+      "date": "2024-10-30",
+      "url": "http://theconversation.com/misinformation-is-more-than-just-bad-facts-how-and-why-people-spread-rumors-is-key-to-understanding-how-false-information-travels-and-takes-root-241748",
+      "outlet": "The Conversation",
+      "source": "elsewhere",
+      "paid": false
+    },
+    {
+      "title": "Making the Case: Evidence Generation Infrastructure in the 2024 Election",
+      "date": "2024-10-29",
+      "url": "https://uwcip.substack.com/p/making-the-case-evidence-generation",
+      "source": "cip",
+      "paid": false
+    },
+    {
+      "title": "Unfolding blame game between Left and Right as Pennsylvania announces 2,500 fraudulent voter registrations in Lancaster County",
+      "date": "2024-10-29",
+      "url": "https://uwcip.substack.com/p/unfolding-blame-game-between-left",
+      "source": "cip",
+      "paid": false
+    },
+    {
+      "title": "Follow-up: UOCAVA lawsuits filed in swing states following rumors alleging insecurity in overseas voting processes",
+      "date": "2024-10-24",
+      "url": "https://uwcip.substack.com/p/follow-up-uocava-lawsuits-filed-in",
+      "source": "cip",
+      "paid": false
+    },
+    {
+      "title": "Florida sues the Department of Homeland Security for citizenship data, sparking rumors",
+      "date": "2024-10-23",
+      "url": "https://uwcip.substack.com/p/florida-sues-the-department-of-homeland",
+      "source": "cip",
+      "paid": false
+    },
+    {
+      "title": "Rumors Rapidly Spreading About Reissued Department of Defense Directive 5240.01",
+      "date": "2024-10-18",
+      "url": "https://uwcip.substack.com/p/rumors-rapidly-spreading-about-reissued",
+      "source": "cip",
+      "paid": false
+    },
+    {
+      "title": "Breaking News in the Hands of a Few: Newsbrokering on X During the Trump Assassination Attempts",
+      "date": "2024-10-14",
+      "url": "https://uwcip.substack.com/p/breaking-news-in-the-hands-of-a-few",
+      "source": "cip",
+      "paid": false
+    },
+    {
+      "title": "Error in Arizona’s Voter Registration System Fuels Rumors of Non-Citizen Voting",
+      "date": "2024-10-10",
+      "url": "https://uwcip.substack.com/p/error-in-arizonas-voter-registration",
+      "source": "cip",
+      "paid": false
+    },
+    {
+      "title": "The Anatomy of 3 Videos Alleging that Many Non-Citizens Are Registered to Vote in U.S. Elections",
+      "date": "2024-10-09",
+      "url": "https://uwcip.substack.com/p/2b6ac873-058f-48b3-8ebf-04cc582fa49d",
+      "source": "cip",
+      "paid": false
+    },
+    {
+      "title": "Making Sense of Election Rumors Emerging From Hurricane Helene",
+      "date": "2024-10-08",
+      "url": "https://uwcip.substack.com/p/making-sense-of-election-rumors-emerging",
+      "source": "cip",
+      "paid": false
+    },
+    {
+      "title": "What to Expect When We’re Electing: An Object-Oriented Framework for Pre-Election Rumors",
+      "date": "2024-10-02",
+      "url": "https://uwcip.substack.com/p/2024-election-rumors-object-oriented-framework",
+      "source": "cip",
+      "paid": false
+    },
+    {
+      "title": "Examining rumors that Democrats are trying to commit voter fraud via the Uniformed and Overseas Citizens Absentee Voting Act (UOCAVA)",
+      "date": "2024-10-01",
+      "url": "https://uwcip.substack.com/p/examining-rumors-that-democrats-are",
+      "source": "cip",
+      "paid": false
+    },
+    {
+      "title": "Rumors questioning the legality and legitimacy of the presumptive Democratic presidential nominee",
+      "date": "2024-07-31",
+      "url": "https://www.cip.uw.edu/2024/07/31/rumors-kamala-harris-legitimacy-nomination",
+      "outlet": "Center for an Informed Public",
+      "source": "elsewhere",
+      "paid": false
+    },
+    {
+      "title": "Rumors sparked by assassination attempt spread rapidly on both ends of the spectrum",
+      "date": "2024-07-29",
+      "url": "https://thefulcrum.us/media-technology/assassination-rumors-donald-trump",
+      "outlet": "The Fulcrum",
+      "source": "elsewhere",
+      "paid": false
+    },
+    {
+      "title": "Making sense of rumors about the Trump assassination attempt",
+      "date": "2024-07-15",
+      "url": "https://www.cip.uw.edu/2024/07/15/trump-assassination-rumors-collective-sensemaking",
+      "outlet": "Center for an Informed Public",
+      "source": "elsewhere",
+      "paid": false
+    },
+    {
+      "title": "Misinformed Monitors: How Conspiracy Theories Surrounding “Ballot Mules” Led to Accusations of Voter Intimidation",
+      "date": "2022-11-07",
+      "url": "https://www.eipartnership.net/blog/conspiracy-theories-ballot-mules-voter-intimidation",
+      "outlet": "Election Integrity Partnership",
+      "source": "elsewhere",
+      "paid": false
+    },
+    {
+      "title": "Voting Rights Legislation Framed to Support Election Conspiracy Theories About Non-citizens Voting",
+      "date": "2022-10-07",
+      "url": "https://www.eipartnership.net/blog/non-citizen-voting-conspiracy-theory",
+      "outlet": "Election Integrity Partnership",
+      "source": "elsewhere",
+      "paid": false
+    },
+    {
+      "title": "The rise of “trafficking” language in ballot collection narratives",
+      "date": "2022-04-30",
+      "url": "https://www.cip.uw.edu/2022/04/30/ballot-trafficking-collection-narratives",
+      "outlet": "Center for an Informed Public",
+      "source": "elsewhere",
+      "paid": false
+    }
+  ],
+  "updated": "2026-11-18T21:34:47+00:00"
+}

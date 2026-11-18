@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- EDIT: your name and a one-line description (shows in Google and link previews) -->
+  <title>Stephen Prochaska</title>
+  <meta name="description" content="Stephen Prochaska studies online rumors, disinformation, and collective sensemaking around U.S. elections at the University of Washington.">
+  <meta property="og:title" content="Stephen Prochaska">
+  <meta property="og:image" content="assets/img/photo.jpg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Literata:ital,opsz,wght@0,7..72,400..700;1,7..72,400..700&family=Public+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+  <a class="skip" href="#main">Skip to content</a>
+  <header class="site-header">
+    <div class="wrap">
+      <a class="site-name" href="./">Stephen Prochaska</a>
+      <nav class="site-nav" aria-label="Main">
+        <a href="writing.html">Public Writing</a>
+        <a href="research.html">Formal Research</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <div class="wrap">
+      <section class="intro">
+        <div class="portrait">
+          <!-- EDIT: replace assets/img/photo.jpg with your own photo (portrait, ~800×1000px) -->
+          <img src="assets/img/photo.jpg" alt="Portrait of Stephen Prochaska" width="680" height="850">
+          <svg class="graph-mark" viewBox="0 0 120 100" aria-hidden="true">
+            <g stroke="#AEB9C6" stroke-width="1.5">
+              <line x1="18" y1="20" x2="60" y2="52"/><line x1="60" y1="52" x2="102" y2="30"/>
+              <line x1="60" y1="52" x2="88" y2="86"/><line x1="102" y1="30" x2="88" y2="86"/>
+            </g>
+            <circle cx="18" cy="20" r="9" fill="#17223B" stroke="#F4F6F8" stroke-width="3"/>
+            <circle cx="60" cy="52" r="6" fill="#0079A8" stroke="#F4F6F8" stroke-width="3"/>
+            <circle cx="102" cy="30" r="5" fill="#0079A8" stroke="#F4F6F8" stroke-width="3"/>
+            <circle cx="88" cy="86" r="7" fill="#C08420" stroke="#F4F6F8" stroke-width="3"/>
+          </svg>
+        </div>
+
+        <div>
+          <!-- EDIT: name, role, bio paragraphs, and contact links -->
+          <h1>Stephen Prochaska</h1>
+          <p class="role">PhD student, Information School, University of Washington</p>
+          <div class="bio">
+            <p>I study how rumors and disinformation take shape online, especially around U.S. elections: how people collectively make sense of uncertain events, how participatory disinformation draws on deeper stories people already hold, and how “evidence” gets produced and framed as events unfold.</p>
+            <p>I’m a PhD student in Information Science at the University of Washington, advised by Kate Starbird and Jevin West, and a researcher with the Center for an Informed Public. My work pairs qualitative, interpretive analysis with computational methods, from temporal semantic clustering to agent-based simulation. During election seasons I contribute to the Center’s rapid-response rumor research, published in <a href="https://uwcip.substack.com">The Election Rumor Rundown</a>.</p>
+            <p>Before my PhD I studied psychology at Beloit College and earned a master’s in Information Management at UW. I also write on my personal Substack, <a href="https://stephenprochaska.substack.com">Imagining <s>Im</s>Possible Futures</a>.</p>
+          </div>
+          <div class="contact">
+            <a href="mailto:sprochas@uw.edu">sprochas@uw.edu</a>
+            <a href="assets/cv.pdf">CV (PDF)</a>
+            <a href="https://stephenprochaska.substack.com">Substack</a>
+            <a href="https://www.cip.uw.edu/">Center for an Informed Public</a>
+          </div>
+        </div>
+      </section>
+
+      <section class="latest" aria-label="Recent work">
+        <div>
+          <h2 class="section-title">Recent writing</h2>
+          <ol id="latest-posts"></ol>
+          <a class="more" href="writing.html">All public writing</a>
+        </div>
+        <div>
+          <h2 class="section-title">Recent papers</h2>
+          <ol id="latest-papers"></ol>
+          <a class="more" href="research.html">All formal research</a>
+        </div>
+      </section>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap"><p>© <span data-year></span> Stephen Prochaska</p></div>
+  </footer>
+
+  <script type="module">
+    import { fetchJSON, formatDate, el, plainName } from "./assets/js/site.js";
+
+    fetchJSON("data/posts.json").then(({ posts = [], sources = [] }) => {
+      const names = Object.fromEntries(sources.map(s => [s.id, s.name]));
+      const list = document.getElementById("latest-posts");
+      posts.slice(0, 3).forEach(p => list.append(
+        el("li", {}, el("a", { href: p.url }, p.title),
+          el("div", { class: "meta" }, `${p.outlet || plainName(names[p.source] || "")}, ${formatDate(p.date)}`))
+      ));
+      if (!posts.length) list.append(el("li", { class: "meta" }, "Posts will appear here after the first Substack sync."));
+    }).catch(() => {});
+
+    fetchJSON("data/publications.json").then(({ publications = [] }) => {
+      const list = document.getElementById("latest-papers");
+      publications.filter(p => !p.status).sort((a, b) => b.year - a.year).slice(0, 3).forEach(p => list.append(
+        el("li", {}, el("a", { href: p.url || "research.html" }, p.title),
+          el("div", { class: "meta" }, `${p.venue}, ${p.year}`))
+      ));
+    }).catch(() => {});
+  </script>
+</body>
+</html>
